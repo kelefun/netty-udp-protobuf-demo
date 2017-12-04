@@ -1,0 +1,5 @@
+syntax = "proto3";
+package com.funstill.netty.protobuf.demo.model;
+message Message {
+  string content = 1;
+}
